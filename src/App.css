@@ -1,0 +1,13 @@
+*{
+  margin: 3px;
+}
+
+.flex-container{
+  display: flex;
+}
+.chart-container{
+  border: 1px solid #D6D9DD;
+  padding: 10px 10px;
+ border-radius: 5px;
+ width: 81%;
+}

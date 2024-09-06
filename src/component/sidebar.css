@@ -1,0 +1,113 @@
+.whole-nav{
+    border: 1px solid #D6D9DD;
+    padding: 5px 20px;
+   border-radius: 5px;
+   width: 13%;
+}
+.head{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.data{
+    color: #2E3849;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.divider{
+    color: #EBECEE;
+    margin-top: 6px;
+    margin-bottom: 7px;
+}
+.course{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.course-outcomes{
+    padding: 5px;
+    border-radius: 6px;
+    background-color: #A7C88F;
+}
+
+.mapped-outcomes{
+    padding: 5px;
+    border-radius: 6px;
+    color: white;
+    background-color: #2E6995;
+}
+
+@media only screen and (max-width: 1024px) {
+    .whole-nav{
+        border: 1px solid #D6D9DD;
+        padding: 5px 10px;
+       border-radius: 5px;
+       width: 13%;
+       height: 443px;
+       overflow-y: scroll;
+    }
+    .head{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .data{
+        color: #2E3849;
+        font-weight: 400;
+        font-size: 13px;
+
+    }
+    .course-outcomes{
+        padding: 2px;
+        border-radius: 6px;
+        background-color: #A7C88F;
+        font-size: 13px;
+    }
+    
+    .mapped-outcomes{
+        padding: 2px;
+        border-radius: 6px;
+        color: white;
+        background-color: #2E6995;
+        font-size: 13px;
+
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .whole-nav{
+        border: 1px solid #D6D9DD;
+        padding: 5px 10px;
+       border-radius: 5px;
+       width: 13%;
+       height: 341px;
+       overflow-y: scroll;
+    }
+    .head{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .data{
+        color: #2E3849;
+        font-weight: 400;
+        font-size: 10px;
+
+    }
+    .course-outcomes{
+        padding: 2px;
+        border-radius: 6px;
+        background-color: #A7C88F;
+        font-size: 10px;
+
+    }
+    
+    .mapped-outcomes{
+        padding: 2px;
+        border-radius: 6px;
+        color: white;
+        background-color: #2E6995;
+        font-size: 10px;
+
+    }
+  }
